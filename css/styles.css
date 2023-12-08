@@ -20,15 +20,15 @@ font-family: Raleway;
 a {
     text-decoration: none;
 }
-.nav-link-contacts {
+.nav-link-contact {
     color: #2E2F42;
     font-family: Roboto;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.32px;
 }
-.nav-link-contacts:hover,
-.nav-link-contacts:focus {
+.nav-link-contact:hover,
+.nav-link-contact:focus {
     color: var(--OCEAN, #404BBF);
 }
 .contact-link {
