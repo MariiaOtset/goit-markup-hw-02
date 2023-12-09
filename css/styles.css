@@ -82,6 +82,7 @@ a {
 .contact-link-telephone:focus {
         color: var(--OCEAN, #404BBF);
 }
+/* Main */
 .hero {
     background-color: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
