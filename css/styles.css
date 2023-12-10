@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background: #FFF;
     color: #434455;
@@ -19,7 +19,7 @@ padding: 0;
 /* Header */
 .logo {
 color: var(--IRIS, #4D5AE5);
-font-family: 'Raleway', 'sans-serif';
+font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.2;
@@ -27,7 +27,7 @@ font-family: 'Raleway', 'sans-serif';
     text-transform: uppercase;
 }
 .logo-studio {
-    font-family: 'Raleway', 'sans-serif';
+    font-family: 'Raleway', sans-serif;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 a {
@@ -168,7 +168,7 @@ address {
 }
 .footer-logo {
 color: var(--IRIS, #4D5AE5);
-    font-family: 'Raleway', 'sans-serif';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.7;
