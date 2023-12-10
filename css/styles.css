@@ -22,7 +22,7 @@ color: var(--IRIS, #4D5AE5);
 font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -33,54 +33,25 @@ font-family: 'Raleway', sans-serif;
 a {
     text-decoration: none;
 }
-.nav-link-studio {
+/* Navigation+Contacts */
+.nav-link-item:hover,
+.nav-link-item:focus {
+    color: var(--OCEAN, #404BBF);
+}
+.nav-link-item {
     color: #2E2F42;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.nav-link-studio:hover,
-.nav-link-studio:focus {
-    color: var(--OCEAN, #404BBF);
-}
-.nav-link-portfolio {
-        color: #2E2F42;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.32px;
-}
-.nav-link-portfolio:hover,
-.nav-link-portfolio:focus {
-    color: var(--OCEAN, #404BBF);
-}
-.nav-link-contacts {
-    color: #2E2F42;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-}
-.nav-link-contacts:hover,
-.nav-link-contacts:focus {
-    color: var(--OCEAN, #404BBF);
-}
-.contact-link-email {
+.contact-link-item {
     color: #434455;
     font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.contact-link-email:hover,
-.contact-link-email:focus {
-    color: var(--OCEAN, #404BBF);
-}
-.contact-link-telephone {
-    color: #434455;
-    font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-}
-.contact-link-telephone:hover,
-.contact-link-telephone:focus {
+.contact-link-item:hover,
+.contact-link-item:focus {
         color: var(--OCEAN, #404BBF);
 }
 /* Main */
@@ -171,7 +142,7 @@ color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -180,7 +151,7 @@ color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.7;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
