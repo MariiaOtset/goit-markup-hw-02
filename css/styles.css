@@ -19,14 +19,15 @@ padding: 0;
 /* Header */
 .logo {
 color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+font-family: 'Raleway', 'sans-serif';
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.2;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .logo-studio {
+    font-family: 'Raleway', 'sans-serif';
     color: var(--NAVY-BLUE, #2E2F42);
 }
 a {
@@ -93,7 +94,7 @@ a {
     color: var(--WHITE, #FFF);
         text-align: center;
             font-size: 56px;
-            line-height: 1.071;
+            line-height: 1.1;
             letter-spacing: 1.12px;
 }
 .hero-button {
@@ -128,7 +129,7 @@ h2 {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-size: 36px;
-        line-height: 1.111;
+        line-height: 1.1;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -154,7 +155,7 @@ h2 {
 }
 .footer-logo {
 color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 700;
     font-size: 18px;
     line-height: 1.7;
