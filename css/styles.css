@@ -94,7 +94,7 @@ a {
     color: var(--WHITE, #FFF);
         text-align: center;
             font-size: 56px;
-            line-height: 1.1;
+            line-height: 1.07;
             letter-spacing: 1.12px;
 }
 .hero-button {
@@ -107,6 +107,10 @@ a {
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.64px;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
 ul {
     list-style-type: none;
@@ -125,15 +129,24 @@ p {
 .our-team {
     background-color: var(--CLOUD, #F4F4FD);
 }
+.our-team-item {
+    background-color: #FFFFFF;
+}
+.our-team-text {
+    font-size: 16px
+}
 h2 {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.visually-hidden {
+address {
+    font-style: normal;
+}
+.features-visually-hidden {
             position: absolute;
             width: 1px;
             height: 1px;
